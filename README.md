@@ -96,7 +96,7 @@ Install backend dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
+Also replace gemini API key with your API key in config.py
 Run the backend server:
 ```bash
 python app.py
