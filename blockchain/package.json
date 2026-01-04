@@ -1,0 +1,17 @@
+{
+  "name": "grievance-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain contracts for Grievance Redressal System",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "truffle compile",
+    "migrate": "truffle migrate --network development",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
